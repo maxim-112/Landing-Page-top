@@ -43,6 +43,11 @@ a{
     font-size: 18px;
 }
 
+a:hover{
+    color: #e5e7ebbb;
+}
+
+
 .herotext{
     flex: 1;
     padding-right: 100px;
@@ -69,4 +74,8 @@ a{
     padding-top: 84PX;
     border-radius: 4px;
 
+}
+
+.herotext button:hover{
+    background-color: #3881f6bd;
 }
