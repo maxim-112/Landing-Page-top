@@ -79,3 +79,41 @@ a:hover{
 .herotext button:hover{
     background-color: #3881f6bd;
 }
+
+/*------------section------------------*/
+
+.section2{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+.section2 h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border-color:#3882f6;
+    border-style: solid;
+    border-radius: 15px;
+    min-width: 150px;
+    flex: 1 0 1; 
+}
+
+.section2 p{
+    flex: 1 0 1;
+    text-align: center;
+    color: gray;
+    width: 160px;
+    min-width: 160px;
+    padding-bottom:60px ;
+}
+
+/*----------section----------*/
+
+
